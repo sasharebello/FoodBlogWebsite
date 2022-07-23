@@ -10,7 +10,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 500;
     text-align: center;
-    color: #22486C;
+    color: #ffffff;
 }
 
 h2 {
@@ -36,21 +36,24 @@ p {
   
   .navbar {
     overflow: hidden;
-    background-color: rgb(187, 207, 218);
+    height: 70px;
+    background-color: rgb(34, 35, 35);
     font-family: Arial, Helvetica, sans-serif;
   }
   
   .navbar a {
-    float: left;
+    float: right;
     font-size: 16px;
+    height: 70px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 16px;
     text-decoration: none;
+    
   }
   
   .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
   }
   
@@ -62,11 +65,13 @@ p {
     padding: 14px 16px;
     background-color: inherit;
     font: inherit;
+    height: 70px;
     margin: 0;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(210, 181, 143);
+    
   }
   
   .dropdown-content {
@@ -80,7 +85,7 @@ p {
   }
   
   .dropdown-content .header {
-    background: red;
+    background: rgb(23, 23, 23);
     padding: 16px;
     color: white;
   }
@@ -105,6 +110,7 @@ p {
     text-decoration: none;
     display: block;
     text-align: left;
+    
   }
   
   .column a:hover {
@@ -125,16 +131,6 @@ p {
       height: auto;
     }
   }
-  
-/* CAROUSEL */
-.carousel {
-    height: 100vh;
-}
-
-.carousel-img {
-    height: 100vh;
-    object-fit: cover;
-}
 
 /* DESCRIPTION */
 .general-container {
@@ -228,7 +224,7 @@ button:focus:not(:focus-visible) {
 
 /* FOOTER */
 footer {
-    background-color: #399EDC;
+    background-color: #292929;
     text-align: center;
     padding: 5% 0%;
 }
@@ -248,27 +244,3 @@ footer {
     max-width: 500px;
 }
 
-/* LOGIN */
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-form {
-    width: 20vw;
-    font-family: 'Roboto', sans-serif;
-}
-
-.btn-login {
-    border-radius: 5px;
-    background-color: #399EDC;
-    border: 2px solid #399EDC;
-}
-
-.btn-login:hover {
-    background-color: transparent;
-    color: #399EDC;
-    border: 2px solid #399EDC;
-    box-shadow: none;
-}
